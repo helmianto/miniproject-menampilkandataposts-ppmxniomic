@@ -103,6 +103,10 @@ const App = () => {
                     activePage={activePage}
                     onPageChange={handlePaginationChange}
                     totalPages={pageCount}
+                    ellipsisItem={null}
+                    firstItem={null}
+                    lastItem={null}
+                    // siblingRange={1}
                   />       
                 </Segment>                
               </Grid.Column>
